@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------------------------
+CONTENIDO DE src.zip
+-------------------------------------------------------------------------------------------------
+Algoritmo.py: clase que implementa el algoritmo A*
+GUI.py: clase que implementa la interfaz gráfica
+Metro.py: clase que implementa el mapa del metro
+Station.py: clase que modela una estación de metro
+GUI.exe: aplicación ejecutable
+metro_lyon_700.png: imagen del metro en formato .png reescalado a 700
+Logo.ico: icono del ejecutable GUI.exe en formato .ico
+logo_metro_lyon_mas_pequeno.png: icono del ejecutable GUI.exe en formato .png
+leeme.txt: este mismo archivo
+-------------------------------------------------------------------------------------------------
+CONSIDERACIONES
+-------------------------------------------------------------------------------------------------
+El archivo ejecutable GUI.exe debe encontarse contenido en la misma carpeta que los archivos .png
+y con el nombre especificado en este mismo archivo leeme.txt
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+Para hacer el ejecutable desde GUI.py:
+pyinstaller --onefile --icon=logo_metro_lyon.ico GUI.py
+-------------------------------------------------------------------------------------------------
